@@ -1,0 +1,23 @@
+# Ignore backend (Spring Boot)
+services/
+*.jar
+*.war
+*.class
+*.iml
+*.log
+target/
+build/
+dist/
+
+# Ignore local & IDE stuff
+.expo/
+node_modules/
+.gradle/
+.vscode/
+.idea/
+.git/
+.gitignore
+.DS_Store
+
+# Ignore OS specific
+Thumbs.db
